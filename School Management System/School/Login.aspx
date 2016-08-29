@@ -54,8 +54,7 @@
    <td style="width: 64px; height: 24px; text-align: right">
    <asp:Button ID="btnLogin" runat="server" CssClass="button" Text="Login" EnableTheming="True" ForeColor="White" OnClick="btnLogin_Click" OnClientClick="javascript:return LoginValidation()" CausesValidation="False"/>
    </td>
-   <td style="height: 24px; text-align: left">
-       &nbsp;<asp:Button ID="btnCancel" runat="server" CssClass="button" Text="Cancel" ForeColor="White" OnClientClick="javascript:ClearFields()" CausesValidation="False" /></td>
+  
    </tr>
    </table>
     </fieldset> 
